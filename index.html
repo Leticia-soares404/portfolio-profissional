@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1210" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Letícia Soares | design e desenvolvimento</title>
+    <meta name="description" content="Portfólio de Letícia Soares: estudante de Engenharia de Software na PUC Minas, designer e desenvolvedora web." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Letícia Soares | design e desenvolvimento" />
+    <meta property="og:image" content="/projetos/portfolio.png" />
+    <!-- Carimba o tema antes da primeira pintura: sem isso a página nasce escura
+         e pisca para o claro quando o React monta. -->
+    <script>
+      try {
+        var t = localStorage.getItem('portfolio:theme')
+        if (t !== 'light' && t !== 'dark') {
+          t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+        }
+        document.documentElement.dataset.theme = t
+        document.documentElement.style.colorScheme = t
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
