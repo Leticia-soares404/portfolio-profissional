@@ -23,7 +23,7 @@
 
 ## 🚧 Status do Projeto
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-publicado-brightgreen)
 ![Versão](https://img.shields.io/badge/versão-0.1.0-blue)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
@@ -42,6 +42,7 @@
 - [Instalação e Execução](#-instalação-e-execução)
 - [Deploy](#-deploy)
 - [Estrutura de Pastas](#-estrutura-de-pastas)
+- [Wireframes](#-wireframes)
 - [Demonstração](#-demonstração)
 - [Testes](#-testes)
 - [Documentações utilizadas](#-documentações-utilizadas)
@@ -52,8 +53,8 @@
 
 ## 🔗 Links Úteis
 
-- 🌐 **Site publicado:** _a definir após o deploy na Vercel_
-- 📐 **Protótipos (Figma):** _a definir_
+- 🌐 **Site publicado:** [portfolio-profissional-rust.vercel.app](https://portfolio-profissional-rust.vercel.app/)
+- 📐 **Protótipos (Figma):** _link a adicionar_ — imagens em [Wireframes](#-wireframes)
 - 🐸 **Projeto de referência:** [Rana Estúdio](https://ranaestudio.com)
 
 ---
@@ -178,7 +179,9 @@ npm run lint      # ESLint
 
 ```
 .
-├── docs/img/                  # screenshots do README
+├── docs/
+│   ├── img/                   # screenshots do site
+│   └── wireframes/            # wireframes de média fidelidade
 ├── public/
 │   ├── projetos/              # imagens/GIFs dos projetos
 │   ├── favicon.svg
@@ -215,6 +218,22 @@ npm run lint      # ESLint
 ├── package.json
 └── vite.config.ts
 ```
+
+---
+
+## 📐 Wireframes
+
+Wireframes de média fidelidade das telas desktop (1440 px) e mobile (390 px). O painel laranja à direita de cada tela descreve as interações previstas.
+
+| Desktop | |
+|---|---|
+| ![Início](docs/wireframes/01-desktop-inicio.jpg) | ![Sobre mim](docs/wireframes/02-desktop-sobre-mim.jpg) |
+| ![Projetos](docs/wireframes/03-desktop-projetos.jpg) | ![Modal de projeto](docs/wireframes/04-desktop-modal-projeto.jpg) |
+| ![Experiências](docs/wireframes/05-desktop-experiencias.jpg) | ![Contato](docs/wireframes/06-desktop-contato.jpg) |
+
+| Mobile | | | |
+|---|---|---|---|
+| ![Início mobile](docs/wireframes/07-mobile-inicio.jpg) | ![Menu mobile](docs/wireframes/08-mobile-menu.jpg) | ![Projetos mobile](docs/wireframes/09-mobile-projetos.jpg) | ![Contato mobile](docs/wireframes/10-mobile-contato.jpg) |
 
 ---
 
