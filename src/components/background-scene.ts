@@ -1,5 +1,4 @@
 import {
-    Clock,
     Color,
     Mesh,
     OrthographicCamera,
@@ -132,7 +131,7 @@ export function createBackgroundScene(
 
     const scene = new Scene()
     const camera = new OrthographicCamera(-1, 1, 1, -1, 0, 1)
-    const clock = new Clock()
+    const start = performance.now()
 
     const uniforms = {
         uTime: { value: 0 },
@@ -204,7 +203,7 @@ export function createBackgroundScene(
             return
         }
 
-        uniforms.uTime.value = clock.getElapsedTime()
+        uniforms.uTime.value = (performance.now() - start) / 1000
         uniforms.uMouse.value.lerp(target, 0.06)
         velocity *= 0.95
         uniforms.uMouseForce.value = 0.3 + velocity * 1.4
