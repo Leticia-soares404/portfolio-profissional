@@ -54,7 +54,7 @@
 ## 🔗 Links Úteis
 
 - 🌐 **Site publicado:** [portfolio-profissional-rust.vercel.app](https://portfolio-profissional-rust.vercel.app/)
-- 📐 **Protótipos (Figma):** _link a adicionar_ — imagens em [Wireframes](#-wireframes)
+- 📐 **Protótipos (Figma):** [portfolio-wireframes](https://www.figma.com/design/vhOdIobyJ8Vn1V6iLGHWOT/portfolio-wireframes) — imagens em [Wireframes](#-wireframes)
 - 🐸 **Projeto de referência:** [Rana Estúdio](https://ranaestudio.com)
 
 ---
@@ -223,7 +223,7 @@ npm run lint      # ESLint
 
 ## 📐 Wireframes
 
-Wireframes de média fidelidade das telas desktop (1440 px) e mobile (390 px). O painel laranja à direita de cada tela descreve as interações previstas.
+Wireframes de média fidelidade das telas desktop (1440 px) e mobile (390 px), também disponíveis no [Figma](https://www.figma.com/design/vhOdIobyJ8Vn1V6iLGHWOT/portfolio-wireframes). O painel laranja à direita de cada tela descreve as interações previstas.
 
 | Desktop | |
 |---|---|
